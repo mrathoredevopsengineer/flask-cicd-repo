@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "I am learnig git by using flask app"
+    return "We are all leaning git hub"
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
